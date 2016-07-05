@@ -7,6 +7,33 @@
 	src:url(font/chunkfive.otf);
 }
 /*header*/
+.box{
+	width: 1400px;
+	height: 1200px;
+	margin: 0 auto;
+}
+.clear{
+	clear:both;
+}
+.float{
+	width: 1000px;
+		position: relative;
+}
+.float1{
+	top:182px;
+	left:-70px;
+	float:left;
+	width: 30px;
+	position:absolute;
+}
+.float2{
+	right:0px;
+	top:180px;
+	width: 30px;
+	float:left;
+	position:absolute;
+		}
+
 .header{
 	width: 960px;
 	height: 108px;
@@ -36,22 +63,12 @@
 }
 /*banner*/
 .banner{
-	height: 749px;
+	height: 613px;
 	width: 960px;
 	margin: 0 auto;
 	margin-top: 0px;
+
 }
-.float1{
-			left:-70px;
-			top:182px;
-			position:relative;
-		}
-.float2{
-			right:-980px;
-			top:134px;
-			position:relative;
-			
-		}
 .banner .b-left{
 	float:left;
 	width: 550px;
@@ -64,8 +81,8 @@
 .banner .b-left .b-left-top h3{
 	font-size: 48px;
 	font-family: chunk;
-	margin-top: 34px;
 	margin-left: 11px;
+	margin-top: 34px;
 }
 .banner .b-left .b-left-top p{
 	font-size: 18px;
@@ -106,6 +123,7 @@
 }
 /*conntainer*/
 .container{
+	min-width:960px;
 	background-image: url(images/bg1.png);
 }
 .container .nav{
