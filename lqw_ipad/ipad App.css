@@ -215,6 +215,7 @@
 }
 /*footer*/
 .footer{
+	min-width:960px;
 	height: 90px;
 	margin: 0 auto;
 	font-family: Arial;
