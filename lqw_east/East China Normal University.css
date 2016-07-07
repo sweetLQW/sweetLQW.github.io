@@ -4,6 +4,7 @@
 }
 /*header*/
 .header{
+	min-width: 922px;
 	height :156px;
 	background-image: url("images/bg.jpg");
 }
@@ -78,6 +79,7 @@
 }
 /*container*/
 .container{
+	min-width: 922px;
 	height: 347px;
 	width: 922px;
 	margin: 0 auto;
@@ -214,6 +216,7 @@
 }
 /*footer*/
 .footer{
+	min-width: 922px;
 	height: 233px;
 	margin :0 auto;
 	background-image: url("images/bg1.gif")
