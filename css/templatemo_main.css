@@ -49,7 +49,6 @@ hr {
     padding: 0;
 }
 
-img {  vertical-align: middle; }
 
 .blue {
 	color: #4BF;
@@ -165,7 +164,10 @@ img {  vertical-align: middle; }
 .templatemo-content h2 {
     color: white;
     font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial;, sans-serif;
-	margin-bottom: 15px;
+    height: 70px;
+    line-height: 70px;
+
+}
 }
 .templatemo-content p, .templatemo-content li {
     font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial;, sans-serif;
@@ -229,9 +231,6 @@ img {  vertical-align: middle; }
 /* http://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
 .videoWrapper {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    padding-top: 25px;
-    height: 0;
 }
 .videoWrapper iframe {
     position: absolute;
