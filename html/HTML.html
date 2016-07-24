@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			margin :0px;
+			padding: 0px;
+		}
+		.content{
+			width: 1100px;
+			height: 2000px;
+			margin: 0 auto;
+		}
+		.header{
+			width: 1100px;
+			height: 100px;
+			background-color: green;
+		}
+		.banner{
+			width: 1098px;
+			height: 500px;
+		}
+		.left{
+			width: 126px;
+			height: 500px;
+			border:1px solid black;
+			float :left;
+		}
+		.banner-left-ul li{
+			width: 126px;
+			height: 40px;
+			list-style: none;
+			border:1px solid black;
+			text-align: center;
+			line-height: 40px;
+		}
+		.right{
+			width: 968px;
+			height: 500px;
+			float :left;
+			border :1px solid black;
+		}
+		.right #font{
+			font-size: 20px;
+		}
+		.right div{
+			margin-left: 40px;
+			width: 908px;
+			height: 100%;
+			display: none;
+			overflow: scroll;
+			margin-top: 20px;
+
+		}
+		.right .active{
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<div class="content">
+		<div class="header"></div>
+		<div class="banner">
+			<div class="left">
+				<ul class="banner-left-ul">
+					<li>HTML简介</li>
+					<li><a href="html.md">HTML基础</a></li>
+					<li>FORM表单</li>
+					<li>TABLE表格</li>
+					<li></li>
+					<li>6</li>
+					<li>7</li>
+					<li>8</li>
+					<li>9</li>
+					<li>10</li>
+				</ul>
+				
+			</div>
+			<div class="right">
+				<div class="active" id="font">
+					<h3>HTML：</h3>
+					<p>&nbsp;&nbsp;超级文本标记语言是标准通用标记语言下的一个应用，也是一种规范，一种标准，超文本标记语言它通过标记符号来标记要显示的网页中的各个部分。
+					</p><br>	
+					<p>&nbsp;&nbsp;网页文件本身是一种文本文件，通过在文本文件中添加标记符，可以告诉浏览器如何显示其中的内容（如：文字如何处理，画面如何安排，图片如何显示等）。
+					</p><br>
+					<p>&nbsp;&nbsp;浏览器按顺序阅读网页文件，然后根据标记符解释和显示其标记的内容，对书写出错的标记将不指出其错误，且不停止其解释执行过程，编制者只能通过显示效果来分析出错原因和出错部位。</p><br>
+					<p>&nbsp;&nbsp;但需要注意的是，对于不同的浏览器，对同一标记符可能会有不完全相同的解释，因而可能会有不同的显示效果。</p>
+				</div>
+				<div>
+					<p>
+						<h3>网页效果：</h3>
+						
+					</p>
+				</div>
+				<div>
+					<h3>网页效果：</h3>
+					<!DOCTYPE html>
+					<html lang="en">
+					<head>
+						<meta charset="UTF-8">
+						<title>Document</title>
+					</head>
+					<body>
+						<form action="http://baidu.com/">
+							********输入框*********<br>
+							<input type="text" name="username" placeholder="用户名"><br><br>	
+							<input type="text" name="passsword" placeholder="密码"><br>
+							********图片按钮*********<br>
+							<input  width="100px" height="80px" type="image" src="images/0.jpg"><br>
+							********复选框按钮*********<br>
+							<input type="checkbox" name="1">西瓜<br>
+							<input type="checkbox" name="2">香蕉<br>
+							<input type="checkbox" name="3">葡萄<br>
+							********单选框按钮*********<br>
+							<input type="radio" name="1">西红柿<br>
+							<input type="radio" name="1">油桃<br>
+							<input type="radio" name="1">哈密瓜<br>
+							<input type="radio" name="1">红提<br>
+						</form>
+					</body>
+					</html>
+				</div>
+				<div>
+					<h3>网页效果：</h3>
+					<style type="text/css">
+					.table1{
+						border-collapse: collapse;
+					}
+					.table1 td, table th{
+						border :1px solid red;
+					}
+					.table2{
+						border :1px solid red;
+						margin :0 auto;
+					}
+					.table2 ul li{
+						border :1px solid red;
+						list-style: none;
+						float :left;
+					}
+				</style>
+					<table class="table1">
+						<thead>
+							<tr>
+								<th>姓名</th>
+								<th>年龄</th>
+								<th>性别</th>
+								<th>出生日期</th>
+							</tr>
+						</thead>
+						<tbody>		
+						<tr>
+							<td>刘倩文</td>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+						</tr>
+						<tr>
+							<td>刘倩文</td>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+						</tr>
+						<tr>
+							<td>刘倩文</td>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+						</tr>
+						</tbody>
+					</table>
+						<table class="table2">
+							<tr>
+								<td>
+									<ul>
+										<li>1</li>
+										<li>2</li>
+										<li>3</li>
+										<li>4</li>
+									</ul>
+								</td>
+							</tr>
+						</table>
+				</div>
+				<div>
+					<h3>网页效果：</h3>
+						
+
+				</div>
+				<div>
+					<h3>网页效果：</h3>
+				</div>
+				<div>7</div>
+				<div>8</div>
+				<div>9</div>
+				<div>10</div>
+			</div>
+		</div>
+		<div class="container"></div>
+		<div class="footer"></div>
+	</div>
+	<script src="script/jquery.js"></script>
+	<script>
+		$(".banner-left-ul li").click(function(){
+			var nav = $(this).index();
+			$(".right div").eq(nav).addClass("active").siblings().removeClass("active")
+		})
+	</script>
+</body>
+</html>
