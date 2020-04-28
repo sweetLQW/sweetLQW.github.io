@@ -1,0 +1,956 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>刘倩文的简历</title>
+    <style>
+        * {
+            outline: none;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+            font-family: "Hiragino Sans GB", "Microsoft Yahei", "SimSun", Arial, "Helvetica Neue", Helvetica;
+            color: #333;
+            word-wrap: break-word;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        main,
+        menu,
+        nav,
+        section,
+        summary {
+            display: block;
+        }
+
+        progress {
+            display: inline-block;
+            vertical-align: baseline;
+        }
+
+        a {
+            color: #555;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #00b38a;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 10px 0;
+            font-weight: normal;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        p+p {
+            margin-top: 10px;
+        }
+
+        img {
+            border: 0;
+            vertical-align: top;
+            display: inline-block;
+        }
+
+        button,
+        input,
+        optgroup,
+        select,
+        textarea {
+            margin: 0;
+            padding: 0;
+            border: 1px solid #ededed;
+            border-radius: 0;
+            font-family: "Hiragino Sans GB", "Microsoft Yahei", "SimSun", Arial, "Helvetica Neue", Helvetica;
+        }
+
+        textarea {
+            overflow: auto;
+        }
+
+        label,
+        select,
+        button,
+        input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        input[type="radio"],
+        input[type="checkbox"],
+        input[type="file"] {
+            cursor: pointer;
+        }
+
+        input[type=text],
+        input[type=password],
+        textarea {
+            font-family: "Microsoft Yahei", "SimSun", Arial, "Helvetica Neue", Helvetica;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        th,
+        td {
+            padding: 0;
+        }
+
+        strong {
+            font-weight: normal;
+        }
+
+        em,
+        i {
+            font-style: normal;
+        }
+
+        dl,
+        dt,
+        dd {
+            margin: 0;
+        }
+
+        ::selection {
+            color: #fff;
+            background-color: #00b38a;
+        }
+
+        ::-moz-selection {
+            color: #fff;
+            background-color: #00b38a;
+        }
+
+        ul,
+        ol {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        #container {
+            width: 720px;
+            margin: 30px auto 54px auto;
+            border: 1px solid #e3ebe9;
+            border-radius: 5px;
+        }
+
+        .mr-template {
+            padding: 50px 50px 10px;
+        }
+
+        .mr-template .mr-template_title {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+        .mr-template .mr-template_title span {
+            font-size: 18px;
+            color: #333333;
+            font-weight: 600;
+            position: relative;
+            margin-left: 10px;
+        }
+
+        .mr-template .mr-template_title span:before {
+            content: '';
+            display: block;
+            border-left: 3px solid #00B38A;
+            height: 16px;
+            width: 3px;
+            position: absolute;
+            left: -7px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .mr-template .mr_md_del {
+            display: none;
+        }
+
+        /***** 基本信息 ****/
+
+        .basic {
+            padding: 50px;
+            background: #FAFAFA;
+            border-radius: 5px 5px 0 0;
+            border-bottom: 1px solid #E3EBE9;
+            display: flex;
+        }
+
+        .basic .basic-photo {
+            height: 88px;
+            width: 88px;
+            display: inline-block;
+            position: relative;
+        }
+
+        .basic .basic-photo img {
+            height: 88px;
+            width: 88px;
+            position: absolute;
+            top: 0;
+            border-radius: 50%;
+        }
+
+        .basic .basic-photo .basic-photo_shadow {
+            display: none;
+        }
+
+        .basic .basic-photo:hover .basic-photo_shadow {
+            display: block;
+        }
+
+        .basic .basic-info {
+            position: relative;
+            width: 100%;
+            margin-left: 20px;
+            flex: 1;
+        }
+
+        .basic .basic-info .edit-btn {
+            position: absolute;
+            right: 0;
+            top: 4px;
+        }
+
+        .basic .basic-info .basic-name-area {
+            overflow: hidden;
+            height: 37px;
+            margin-bottom: 11px;
+        }
+
+        .basic .basic-info .basic-name {
+            float: left;
+            max-width: 250px;
+            font-size: 26px;
+            color: #333333;
+            font-weight: 600;
+            line-height: 37px;
+        }
+
+        .basic .basic-info .icon-sex {
+            width: 13px;
+            height: 13px;
+            float: left;
+            margin-top: 16px;
+            margin-left: 10px;
+            background: none;
+        }
+
+        .basic .basic-info .basic-self {
+            margin-top: 20px;
+        }
+
+        .basic .basic-info p {
+            font-size: 14px;
+            color: #333333;
+            line-height: 20px;
+            margin-top: 6px;
+        }
+
+        .basic .basic-info .basic-tel {
+            margin-right: 20px;
+        }
+
+        .basic-tel span {
+            vertical-align: middle;
+        }
+
+        .basic-email span {
+            vertical-align: middle;
+        }
+
+        /***** 基本信息 end ****/
+
+        /***** 自我描述 ****/
+
+        .per .per-self_content {
+            position: relative;
+        }
+
+        .per .per-self_content .per-self_des {
+            margin-top: 13px;
+            font-size: 14px;
+            color: #666666;
+            line-height: 30px;
+        }
+
+        .per .per-self_content .per-self_des p {
+            margin-top: 0;
+        }
+
+        .per .per-self_content .per-self_des ol {
+            list-style-type: decimal;
+            -webkit-padding-start: 20px;
+        }
+
+        .per .per-self_content .per-self_des ul {
+            list-style: disc;
+            -webkit-padding-start: 20px;
+        }
+
+        /***** 自我描述 end ****/
+
+        /***** 工作经历 ****/
+
+        .work-exp .work-exp_list {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .work-exp .work-exp_list .exp-list_time {
+            font-size: 14px;
+            color: #666666;
+            position: absolute;
+            right: 0;
+        }
+
+        .work-exp .work-exp_list .exp-list_top {
+            display: flex;
+            align-items: center;
+        }
+
+        .work-exp .work-exp_list .exp-list_top img {
+            width: 46px;
+            height: 46px;
+            margin-right: 10px;
+        }
+
+        .work-exp .work-exp_list .exp-list_top .exp-list_right {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            height: 46px;
+            justify-content: space-between;
+        }
+
+        .work-exp .work-exp_list .exp-list_top .exp-list_right p,
+        .work-exp .work-exp_list .exp-list_top .exp-list_right strong {
+            font-size: 14px;
+            color: #333333;
+        }
+
+        .work-exp .work-exp_list .exp-list_top .exp-list_right strong {
+            font-weight: 600;
+        }
+
+        .work-exp .work-exp_list .tagboard {
+            margin: 20px 0 10px;
+        }
+
+        .work-exp .work-exp_list .exp-list_content {
+            font-size: 14px;
+            color: #666666;
+            line-height: 30px;
+        }
+
+        .tagboard .tagboard-tag {
+            font-size: 12px;
+            color: #999;
+            line-height: 18px;
+            padding: 3px 10px;
+            border: 1px solid #EAEDEC;
+            border-radius: 100px;
+            margin-right: 10px;
+            margin-bottom: 6px;
+            display: inline-block;;
+        }
+
+        .work-exp .work-exp_list .exp-list_content ul,
+        .work-exp .work-exp_list .exp-list_content_highlight ul {
+            list-style: disc;
+            -webkit-padding-start: 20px;
+        }
+
+        .work-exp .work-exp_list .exp-list_content ol,
+        .work-exp .work-exp_list .exp-list_content_highlight ol {
+            list-style-type: decimal;
+            -webkit-padding-start: 20px;
+        }
+
+        /***** 工作经历 end ****/
+
+        /***** 项目经历 ****/
+
+        .pro-exp .pro-exp_list {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .pro-exp .pro-exp_list .exp-list_title {
+            font-size: 14px;
+            color: #333333;
+            font-weight: 600;
+            cursor: default;
+            display: flex;
+        }
+
+        .pro-exp .pro-exp_list .exp-list_title .exp-project_name,
+        .pro-exp .pro-exp_list .exp-list_title .exp-project_company span {
+            max-width: 222px;
+            display: block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .pro-exp .pro-exp_list .exp-list_title .exp-project_company {
+            display: flex;
+        }
+
+        .pro-exp .pro-exp_list .exp-list_time {
+            font-size: 14px;
+            color: #666666;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .pro-exp .pro-exp_list .exp-list_content,
+        .pro-exp .pro-exp_list .exp-project_des {
+            font-size: 14px;
+            color: #666666;
+            line-height: 30px;
+            margin-top: 10px;
+        }
+
+        .pro-exp .exp-list_title.active:hover {
+            color: #00B38A;
+            cursor: pointer;
+        }
+
+        .pro-exp .exp-project_url {
+            font-size: 14px;
+            color: #666;
+            line-height: 30px;
+        }
+
+        .pro-exp .pro-exp_list .exp-list_content ul,
+        .pro-exp .pro-exp_list .exp-project_des ul {
+            list-style: disc;
+            -webkit-padding-start: 20px;
+        }
+
+        .pro-exp .pro-exp_list .exp-list_content ol,
+        .pro-exp .pro-exp_list .exp-project_des ol {
+            list-style-type: decimal;
+            -webkit-padding-start: 20px
+        }
+
+        /***** 项目经历 end ****/
+
+        /***** 教育经历 ****/
+
+        .edu-exp .edu-exp_list {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .edu-exp .edu-exp_list .exp-list_time {
+            font-size: 14px;
+            color: #666666;
+            position: absolute;
+            right: 0;
+        }
+
+        .edu-exp .edu-exp_list .exp-list_top {
+            display: flex;
+            align-items: center;
+        }
+
+        .edu-exp .edu-exp_list .exp-list_top img {
+            width: 46px;
+            height: 46px;
+            margin-right: 10px;
+        }
+
+        .edu-exp .edu-exp_list .exp-list_top .exp-list_right {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            height: 46px;
+            justify-content: space-between;
+        }
+
+        .edu-exp .edu-exp_list .exp-list_top .exp-list_right p,
+        .edu-exp .edu-exp_list .exp-list_top .exp-list_right strong {
+            font-size: 14px;
+            color: #333333;
+        }
+
+        .edu-exp .edu-exp_list .exp-list_top .exp-list_right strong {
+            font-weight: 600;
+        }
+
+
+        /***** 教育经历 end ****/
+
+        /***** 社交主页 ****/
+
+        .social-page .social-page_list {
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+        .social-page .social-page_list .social-page_content {
+            display: flex;
+        }
+
+        .social-page .social-page_list .social-page_content img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+            border-radius: 50%;
+        }
+
+        .social-page .social-page_list .social-page_content p {
+            font-size: 14px;
+            color: #666666;
+        }
+
+        .social-page .social-page_list .social-page_content a {
+            line-height: 24px;
+        }
+
+        /***** 社交主页 end ****/
+        /***** 图片作品 ****/
+
+        .portfolio-page .portfolio-list {
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+        .portfolio-page .portfolio-list .portfolio-content {
+            font-size: 14px;
+            color: #666666;
+        }
+
+
+        /***** 图片作品 end ****/
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <!-- 基本信息 -->
+        <div class="basic" id="baseInfo">
+            <div class="basic-photo">
+                <img class="mr_headimg user-avatar" id="userpic"
+                    src="https://www.lgstatic.com/i/image2/M00/11/9D/CgotOVnsmCKAS1M3AAhdaFhFI98345.jpg" width="120"
+                    height="120" alt="头像" />
+            </div>
+            <div class="basic-info">
+                <div class="basic-name-area">
+                    <p class="basic-name female">刘倩文</p>
+                </div>
+                <p>
+                    <span class="basic-job">前端开发工程师 / </span>
+                    <span>随时可入职</span>
+                </p>
+                <p class="basic-self">
+                    <span class="basic-exp">2.5年工作经验 / </span>
+                    <span class="basic-edu">本科 . 统招
+                        /
+                    </span>
+                    <span class="basic-age">25岁</span>
+                </p>
+                <p>
+                    <span class="basic-tel">18511753482</span>
+                    <span class="basic-email">18511753482@163.com</span>
+                </p>
+                <p>
+                    <span>期望薪资：20k - 24k</span>
+                </p>
+            </div>
+        </div>
+        <!-- /基本信息 -->
+
+        <!-- 自我描述 -->
+        <div class="mr-template per" id="perAbility">
+            <div class="mr-template_title">
+                <span>个人优势</span>
+            </div>
+            <div class="tagboard integrative-tag">
+                <div class="integrative-tag_content">
+                    <span class="tagboard-tag">责任心</span>
+                    <span class="tagboard-tag">适应能力</span>
+                    <span class="tagboard-tag">抗压能力</span>
+                    <span class="tagboard-tag">自驱动</span>
+                    <span class="tagboard-tag">团队精神</span>
+                </div>
+            </div>
+            <div class="per-self_content">
+                <div class="per-self_des">
+                    <ul>
+                        <li>工作上一直保持积极的工作态度，遇到技术难题不气馁，静下心翻阅文档寻找解决方案。对于领导分配的工作基本都可以提前完成，与同事相处融洽。</li>
+                        <li>生活中的我乐观开朗，喜欢接触新鲜事物，对各项运动都很感兴趣。</li>
+                        <li>对自己的要求是认真完成每一项工作，并且不断提升自己各方面能力。</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /自我描述 -->
+
+        <!-- 技能描述 -->
+        <div class="mr-template per" id="perAbility">
+            <div class="mr-template_title">
+                <span>掌握技能</span>
+            </div>
+            <div class="tagboard integrative-tag">
+                <div class="integrative-tag_content">
+                    <span class="tagboard-tag">HTML5</span>
+                    <span class="tagboard-tag">CSS3</span>
+                    <span class="tagboard-tag">JavaScript</span>
+                    <span class="tagboard-tag">Jquery</span>
+                    <span class="tagboard-tag">Vue</span>
+                    <span class="tagboard-tag">Webpack</span>
+                    <span class="tagboard-tag">Echarts</span>
+                    <span class="tagboard-tag">Node</span>
+                    <span class="tagboard-tag">MongoDB</span>
+                    <span class="tagboard-tag">小程序</span>
+                </div>
+            </div>
+            <div class="per-self_content">
+                <div class="per-self_des">
+                    <ul>
+                        <li>熟练使用HTML5及CSS3开发技术，对语义化标签有一定的理解。使用过css预处理语言Less。</li>
+                        <li>掌握JavaScript核心技术DOM、BOM、AJAX等。熟悉ES6新特性Promise、箭头函数等Web开发技术。</li>
+                        <li>熟悉Jquery框架，使用过Echarts、Boostrap等框架进行基础开发。</li>
+                        <li>熟悉Vue + Webpack开发模式，并使用过Vue-router、Vuex、Axios进行项目开发，了解vue双向数据绑定原理。</li>
+                        <li>了解node基本知识，使用过express框架搭建服务器。</li>
+                        <li>熟悉前端模块化编程思想，掌握基本数据结构与算法。</li>
+                        <li>了解常见的设计模式如发布订阅模式、单例模式等。</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /技能描述 -->
+
+        <!-- 工作经历 -->
+        <div class="mr-template work-exp" id="workExp">
+            <div class="mr-template_title">
+                <span>工作经历</span>
+            </div>
+            <ol class="work-exp_group">
+                <li class="work-exp_list">
+                    <p class="exp-list_time">2018.10-2019.11</p>
+                    <div class="exp-list_top">
+                        <img src="https://www.lgstatic.com/i/image2/M01/6D/4D/CgoB5ltQOdaASbocAAA54g5X2MI227.jpg"
+                            alt="公司Logo">
+                        <div class="exp-list_right">
+                            <strong class="exp-list_title">
+                                <span>出门问问信息科技有限公司</span>
+                            </strong>
+                            <p>前端开发工程师</p>
+                        </div>
+                    </div>
+                    <div class="tagboard">
+                        <span class="tagboard-tag">移动端</span>
+                        <span class="tagboard-tag">前端开发</span>
+                        <span class="tagboard-tag">Javascript</span>
+                    </div>
+                    <div class="exp-list_content">
+                        <ul>
+                            <li>主要负责出门问问智能设备海外官网的开发与维护及后台系统的开发与维护</li>
+                            <li>PC端与移动端开发</li>
+                            <li>通过API文档与后端进行数据交互</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="work-exp_list">
+                    <p class="exp-list_time">2017.07-2018.10</p>
+                    <div class="exp-list_top">
+                        <img src="https://www.lgstatic.com/i/image/M00/00/43/CgqKkVY53NeAT0xNAADaofqeFtE823.png"
+                            alt="公司Logo">
+                        <div class="exp-list_right">
+                            <strong class="exp-list_title">
+                                <span>北京天源迪科信息技术有限公司</span>
+                            </strong>
+                            <p>前端开发工程师</p>
+                        </div>
+                    </div>
+                    <div class="tagboard">
+                        <span class="tagboard-tag">前端开发</span>
+                        <span class="tagboard-tag">HTML5</span>
+                        <span class="tagboard-tag">Javascript</span>
+                    </div>
+                    <div class="exp-list_content">
+                        <ul>
+                            <li>负责PC端，移动端，小程序等不同平台的开发任务。</li>
+                            <li>做过自定义组件开发</li>
+                            <li>熟悉vue框架</li>
+                            <li>主要使用技术：html、css、js、jquery、echarts、vue等。</li>
+                        </ul>
+                    </div>
+                </li>
+            </ol>
+        </div>
+        <!-- /工作经历 -->
+
+        <!-- 项目经历 -->
+        <div class="mr-template pro-exp" id="proExp">
+            <div class="mr-template_title">
+                <span>项目经历</span>
+            </div>
+            <ol class="pro-exp_group">
+                <li class="pro-exp_list">
+                    <p class="exp-list_title">
+                        <span class="exp-project_name">出门问问海外官网的开发与维护</span>
+                        <span class="exp-project_company">（<span>出门问问信息科技有限公司</span>）</span>
+                    </p>
+                    <p class="exp-list_time">2018.10-2019.11</p>
+                    <div class="exp-project_des">
+                        <ul>
+                            <li>PC端&amp;移动端</li>
+                            <li>技术栈: Vue + Webpack + node + mongoDB<br /></li>
+                            <li>网站功能: 商品详情展示，加购操作，优惠券模块等。主功能为购买流程。</li>
+                        </ul>
+                    </div>
+                    <!-- <div class="exp-list_content">
+                        <ol>
+                            <li>对前端性能优化有了更深刻的理解</li>
+                            <li>对购买流程，优惠券的使用逻辑有更清晰的认知。</li>
+                            <li>对vue的双向数据绑定有更深刻的认识。</li>
+                        </ol>
+                    </div> -->
+                    <p class="exp-project_url">项目链接: <a href="http://mobvoi.com/" target="_blank">http://mobvoi.com/</a></p>
+                </li>
+                <li class="pro-exp_list">
+                    <p class="exp-list_title">
+                        <span class="exp-project_name">负责官网后台系统的开发与维护</span>
+                        <span class="exp-project_company">（<span>出门问问信息科技有限公司</span>）</span>
+                    </p>
+                    <p class="exp-list_time">2018.10-2019.10</p>
+                    <div class="exp-project_des">
+                        <ul>
+                            <li>PC端</li>
+                            <li>技术栈: Vue + Webpack + Echarts</li>
+                            <li>系统功能：商品配置，优惠券配置，可视化数据展示等<br /></li>
+                        </ul>
+                    </div>
+                    <!-- <div class="exp-list_content">
+                        <ol>
+                            <li>对Echarts的应用更加灵活</li>
+                            <li>对表单验证的应用（插件Validate.js）</li>
+                        </ol>
+                    </div> -->
+                </li>
+                <li class="pro-exp_list">
+                    <p class="exp-list_title">
+                        <span class="exp-project_name">营销活动后台管理</span>
+                        <span class="exp-project_company">（<span>北京天源迪科信息技术有限公司</span>）</span>
+                    </p>
+                    <p class="exp-list_time">2018.04-2018.10</p>
+                    <div class="exp-project_des">
+                        <ul>
+                            <li>PC端</li>
+                            <li>采用vue框架开发</li>
+                            <li>在此系统中可查看各类红包活动，针对红包活动进行配置，编辑，上架，下架等操作。</li>
+                        </ul>
+                    </div>
+                    <!-- <div class="exp-list_content">
+                        <ol>
+                            <li>独自负责完成开发</li>
+                            <li>学习了Vue框架的搭建</li>
+                            <li>了解了Webpack工具的使用</li>
+                        </ol>
+                    </div> -->
+                </li>
+                <li class="pro-exp_list">
+                    <p class="exp-list_title">
+                        <span class="exp-project_name">存量运营小程序</span>
+                        <span class="exp-project_company">（<span>北京天源迪科信息技术有限公司</span>）</span>
+                    </p>
+                    <p class="exp-list_time">2018.06-2018.07</p>
+                    <div class="exp-project_des">
+                        <ul>
+                            <li>小程序开发</li>
+                            <li>针对江苏或福建的联通用户开展的存费送费，存费送红包以及开通微信代扣等功能。</li>
+                        </ul>
+                    </div>
+                    <!-- <div class="exp-list_content">
+                        <ol>
+                            <li>独自负责完成开发</li>
+                            <li>深入学习小程序的开发（例如生命周期等内容）</li>
+                        </ol>
+                    </div> -->
+                </li>
+                <li class="pro-exp_list">
+                    <p class="exp-list_title">
+                        <span class="exp-project_name">广东o2o红包</span>
+                        <span class="exp-project_company">（<span>北京天源迪科信息技术有限公司</span>）</span>
+                    </p>
+                    <p class="exp-list_time">2018.03-2018.04</p>
+                    <div class="exp-project_des">
+                        <ul>
+                            <li>移动端开发</li>
+                            <li>主要针对广东的用户可查看附近商户等信息，并且可以参与活动进行抢红包操作。</li>
+                        </ul>
+                    </div>
+                    <!-- <div class="exp-list_content">
+                        <ol>
+                            <li>学习了百度地图的应用</li>
+                            <li>移动端页面布局方式</li>
+                        </ol>
+                    </div> -->
+                </li>
+                <li class="pro-exp_list">
+                    <p class="exp-list_title">
+                        <span class="exp-project_name">商户版小程序</span>
+                    </p>
+                    <p class="exp-list_time">2018.03-2018.04</p>
+                    <div class="exp-project_des">
+                        <ul>
+                            <li>小程序开发</li>
+                            <li>商户版小程序，开发五套不同模板的小程序供商户选择。这是第一次接触小程序，在小程序的开发过程中，虽然小程序有自己一套开发模式，但是其大体原理是与vue不谋而合的，所有开发过程中比较顺利，项目也顺利完成。</li>
+                        </ul>
+                    </div>
+                    <!-- <div class="exp-list_content">
+                        <ol>
+                            <li>掌握小程序开发需要准备的内容</li>
+                            <li>学习了小程序基本的开发模式<br /></li>
+                        </ol>
+                    </div> -->
+                </li>
+                <li class="pro-exp_list">
+                    <p class="exp-list_title">
+                        <span class="exp-project_name">南京物联网</span>
+                        <span class="exp-project_company">（<span>北京天源迪科信息技术有限公司</span>）</span>
+                    </p>
+                    <p class="exp-list_time">2017.07-2018.01</p>
+                    <div class="exp-project_des">
+                        <ul>
+                            <li>PC端</li>
+                            <li>物联网属于后台管理系统，分为两个系统，分别是面向用户和面向管理人员，实现端到端物联网整体解决方案和服务能力。</li>
+                            <li>在此项目中，我们使用的是部门自己开发的组件，并且自己有幸参与到了组件的开发中。</li>
+                        </ul>
+                    </div>
+                    <!-- <div class="exp-list_content">
+                        <ol>
+                            <li>在整个的开发过程中，我学习到了如何搭建整体框架以及所需要考虑到的各种情况，并且在项目的实践中，逐渐优化组件代码，直至完成开发任务。<br /></li>
+                            <li>复杂的业务逻辑扩宽了自己的思维方式。</li>
+                            <li>学习了Element UI框架的使用。</li>
+                        </ol>
+                    </div> -->
+                </li>
+                <li class="pro-exp_list">
+                    <p class="exp-list_title">
+                        <span class="exp-project_name">移动端页面开发</span>
+                    </p>
+                    <p class="exp-list_time">2016.05-2016.05</p>
+                    <div class="exp-project_des">
+                        <ul>
+                            <li>移动端开发</li>
+                            <li>练习移动端的滑动事件、布局方式等，耗时一周。</li>
+                        </ul>
+                    </div>
+                    <!-- <div class="exp-list_content">
+                        <ol>
+                            <li>了解移动端的滑动事件</li>
+                            <li>页面的多种布局方式</li>
+                        </ol>
+                    </div> -->
+                </li>
+                <li class="pro-exp_list">
+                    <p class="exp-list_title">
+                        <span class="exp-project_name">学生管理系统</span>
+                    </p>
+                    <p class="exp-list_time">2016.04-2016.04</p>
+                    <div class="exp-project_des">
+                        <ul>
+                            <li>PC端</li>
+                            <li>软件环境：node，mongoDB</li>
+                            <li>硬件环境：windows10</li>
+                            <li>开发工具：webstorm</li>
+                            <li>项目标题：学生管理系统。</li>
+                            <li>项目描述：<br>
+                                用户使用邮箱和密码登录，邮箱格式需要客户端验证。<br>
+                                登录后保持登录状态，session过期后退出登录状态。<br>
+                                用户列表有【添加】和【删除】功能。添加用户时，邮箱不可以重复，用户名可以重复。<br>
+                                学生列表有【添加】、【修改】、【删除】、【性别筛选】和【按成绩排序】功能。
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <div class="exp-list_content">
+                        <ol>
+                            <li>初识node及mongoDB</li>
+                            <li>学习了session的应用</li>
+                            <li>了解了异步编程</li>
+                        </ol>
+                    </div> -->
+                </li>
+            </ol>
+        </div>
+        <!-- /项目经历 -->
+        <!-- 教育经历 -->
+        <div class="mr-template edu-exp" id="eduExp">
+            <div class="mr-template_title">
+                <span>教育经历</span>
+            </div>
+            <ol class="edu-exp_group">
+                <li class="edu-exp_list">
+                    <p class="exp-list_time">2013.09-2017.07</p>
+                    <div class="exp-list_top">
+                        <img src="https://www.lgstatic.com/i/image/M00/AD/51/Cgp3O1i1E66AOpW8AAAcYIY1eoM97.jpeg"
+                            alt="学校Logo">
+                        <div class="exp-list_right">
+                            <strong>天津大学</strong>
+                            <p>本科 . 统招 / 计算机科学与技术</p>
+                        </div>
+                    </div>
+                </li>
+            </ol>
+        </div>
+        <!-- /教育经历 -->
+
+        <!-- 社交主页 -->
+        <div class="mr-template social-page" id="socialPage">
+            <div class="mr-template_title">
+                <span>社交主页</span>
+            </div>
+            <ol class="social-page_group">
+                <li class="social-page_list">
+                    <div class="social-page_content">
+                        <img src="https://www.lgstatic.com/common/image/social/github@2x.png" alt="">
+                        <a href="https://github.com/sweetLQW" target="_blank">https://github.com/sweetLQW</a>
+                    </div>
+                </li>
+                <li class="social-page_list">
+                    <div class="social-page_content">
+                        <img src="https://www.lgstatic.com/common/image/social/default@2x.png" alt="">
+                        <a href="https://www.cnblogs.com/lqw007/" target="_blank">https://www.cnblogs.com/lqw007/</a>
+                    </div>
+                </li>
+            </ol>
+        </div>
+        <!-- /社交主页 -->
+
+    </div>
+</body>
+
+</html>
